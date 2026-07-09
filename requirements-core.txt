@@ -1,0 +1,7 @@
+# Core deps without hdbscan (which needs a C build toolchain on Windows).
+# The clustering module lazy-imports hdbscan; everything else runs on these.
+openai>=1.50.0
+pydantic>=2.7.0
+numpy>=1.26.0
+python-dotenv>=1.0.1
+pytest>=8.2.0
